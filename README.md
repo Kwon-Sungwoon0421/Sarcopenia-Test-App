@@ -1,4 +1,5 @@
 # Sarcopenia_Test_App
+
 ## 프로젝트 배경
 - 대한민국의 고령화로 인해 근감소증 환자 증가
 - 조기 진단과 관리가 중요한 근감소증 문제를 해결하기 위해, 휴대용 장비와 모바일 어플리케이션을 통해 간단한 진단 도구를 제공
@@ -90,3 +91,43 @@
   
 3. **Arduino**
    - ESP8266_MySQL_Server // MPU6050 센서 x, y, z값 서버 저장
+
+## 데이터베이스 테이블 구조
+### SPPB_user 테이블
+| 필드명        | 데이터 타입   | 설명            |
+|---------------|---------------|------------------|
+| username      | VARCHAR(50)   | 검사자 이름      |
+| birthdaty     | CHAR(6)       | 생년월일(6자리)  |
+| phone         | VARCHAR(12)   | 핸드폰 번호      |
+| id            | VARCHAR(50)   | 아이디           |
+| pw            | VARCHAR(255)  | 비밀번호         |
+
+### SPPB_subjects 테이블
+| 필드명               | 데이터 타입   | 설명               |
+|----------------------|---------------|--------------------|
+| id                   | INT(11)       | 식별번호           |
+| username             | VARCHAR(50)   | 대상자 이름        |
+| birthdate            | CHAR(6)       | 생년월일 (6자리)   |
+| height               | INT(11)       | 키                 |
+| weight               | INT(11)       | 체중               |
+| gender               | VARCHAR(10)   | 성별               |
+| QuestionResult       | INT(11)       | 설문 점수          |
+| AVG_GripStrength     | INT(11)       | 악력 점수          |
+| Walking_Score        | INT(11)       | 보행 점수          |
+| StandUp_Score        | INT(11)       | 의자 일어서기 점수 |
+| Balance_Score        | INT(11)       | 균형 점수          |
+| Total_Score          | INT(11)       | 총 점수            |
+| Last_Inspection_Date | DATE          | 마지막 검사 날짜   |
+
+### SPPB_user 테이블
+| 필드명        | 데이터 타입   | 설명              |
+|---------------|---------------|--------------------|
+| Count         | INT(50)       | 데이터 삽입 카운트 |
+| Name          | VARCHAR(20)   | 사용 안함          |
+| G_X           | FLOAT         | 자이로 X값         |
+| G_Y           | FLOAT         | 자이로 Y값         |
+| G_Z           | FLOAT         | 자이로 Z값         |
+| Time          | DATETIME      | 데이터 삽입 시간   |
+| A_X           | FLOAT         | 가속도 X값         |
+| A_Y           | FLOAT         | 가속도 Y값         |
+| A_Z           | FLOAT         | 가속도 Z값         |
