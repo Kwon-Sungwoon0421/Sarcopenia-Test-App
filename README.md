@@ -32,7 +32,8 @@
    - SPPB_get_data.php // 센서의 x, y, z값 불러오기
 
 2. **안드로이스 스튜디오**
-   
+- Activity와 XML은 같은 제목끼리 연결
+
    (1) **java**
    - BalanceActivity // 균형잡기 검사
    - Chair_Stand_UPActivity // 의자 일어서기 검사
@@ -87,12 +88,12 @@
    - activity_test_result
    - activity_walking
    - activity_xyz
-
   
 3. **Arduino**
-   - ESP8266_MySQL_Server // MPU6050 센서 x, y, z값 서버 저장
+   - ESP8266_MySQL_Server // 센서 값을 읽고 WiFi를 통해 데이터베이스에 전달
 
 ## 데이터베이스 테이블 구조
+  
 ### SPPB_user 테이블
 | 필드명        | 데이터 타입   | 설명            |
 |---------------|---------------|------------------|
@@ -102,6 +103,8 @@
 | id            | VARCHAR(50)   | 아이디           |
 | pw            | VARCHAR(255)  | 비밀번호         |
 
+- 검사자의 정보
+  
 ### SPPB_subjects 테이블
 | 필드명               | 데이터 타입   | 설명               |
 |----------------------|---------------|--------------------|
@@ -119,7 +122,9 @@
 | Total_Score          | INT(11)       | 총 점수            |
 | Last_Inspection_Date | DATE          | 마지막 검사 날짜   |
 
-### SPPB_user 테이블
+- 대상자의 정보
+  
+### SPPB_Normal 테이블
 | 필드명        | 데이터 타입   | 설명              |
 |---------------|---------------|--------------------|
 | Count         | INT(50)       | 데이터 삽입 카운트 |
@@ -131,3 +136,5 @@
 | A_X           | FLOAT         | 가속도 X값         |
 | A_Y           | FLOAT         | 가속도 Y값         |
 | A_Z           | FLOAT         | 가속도 Z값         |
+
+- MPU6050 센서의 데이터 정보
