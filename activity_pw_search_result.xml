@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#009688"
+        android:text="로그인 하기"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:text="비밀번호 찾기"
+        android:textSize="40dp"
+        android:textColor="#009688"/>
+
+    <TextView
+        android:id="@+id/pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="50dp"
+        android:text="변경되었습니다."
+        android:textSize="20dp"
+        android:textColor="#009688"/>
+
+</FrameLayout>

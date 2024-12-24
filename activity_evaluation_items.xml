@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="50dp"
+                android:text="근감소증 평가"
+                android:textSize="40dp"
+                android:textColor="#009688"/>
+
+            <ImageButton
+                android:id="@+id/BackButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="50dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/backbutton" />
+
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="30dp"
+                android:text="근감소증 평가를 위한 항목입니다."
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="0dp"
+                android:text="원하시는 평가항목을 선택해주세요."
+                android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/test_resultimage1" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/itemsimage2" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/itemsimage3" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/itemsimage4" />
+
+            <Button
+                android:id="@+id/FinishButton"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="50dp"
+                android:text="검사 끝내기"
+                android:textSize="25dp"
+                android:backgroundTint="#009688"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

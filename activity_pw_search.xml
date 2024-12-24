@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#009688"
+        android:text="뒤로 가기"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="#009688"
+        android:text="변경 하기"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:text="비밀번호 찾기"
+        android:textSize="40dp"
+        android:textColor="#009688"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="50dp"
+        android:text="아이디"
+        android:textSize="20dp"
+        android:textColor="#009688"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="50dp"
+        android:text="전화번호"
+        android:textSize="20dp"
+        android:textColor="#009688"/>
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="170dp"
+        android:paddingStart="10dp"
+        android:hint="아이디 입력"
+        android:inputType="text"
+        android:background="@drawable/text_box"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="250dp"
+        android:paddingStart="10dp"
+        android:hint="전화번호 입력"
+        android:inputType="phone"
+        android:background="@drawable/text_box"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="50dp"
+        android:text="새 비밀번호"
+        android:textSize="20dp"
+        android:textColor="#009688"/>
+
+    <EditText
+        android:id="@+id/new_pw"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="330dp"
+        android:paddingStart="10dp"
+        android:hint="새 비밀번호 입력"
+        android:inputType="text"
+        android:background="@drawable/text_box"/>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="50dp"
+        android:text="새 비밀번호 확인"
+        android:textSize="20dp"
+        android:textColor="#009688"/>
+
+    <EditText
+        android:id="@+id/check_pw"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="410dp"
+        android:paddingStart="10dp"
+        android:hint="새 비밀번호 재입력"
+        android:inputType="text"
+        android:background="@drawable/text_box"/>
+
+</FrameLayout>

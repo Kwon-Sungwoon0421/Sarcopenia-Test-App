@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#009688"
+        android:text="나가기"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="한국형"
+        android:textColor="#009688"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="50dp"
+        android:text="근감소증 설문지"
+        android:textSize="40dp"
+        android:textColor="#009688"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:text="문항 1 : "
+        android:textColor="#009688"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="245dp"
+        android:text="문항 2 : "
+        android:textColor="#009688"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="290dp"
+        android:text="문항 3 : "
+        android:textColor="#009688"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="335dp"
+        android:text="문항 4 : "
+        android:textColor="#009688"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="380dp"
+        android:text="문항 5 : "
+        android:textColor="#009688"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="425dp"
+        android:text="총 점수 : "
+        android:textColor="#009688"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textScore1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="205dp"
+        android:text="문항 1 점수 "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textScore2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="250dp"
+        android:text="문항 2 점수 "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textScore3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="295dp"
+        android:text="문항 3 점수 "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textScore4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="340dp"
+        android:text="문항 4 점수 "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textScore5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="385dp"
+        android:text="문항 5 점수 "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textTotalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="430dp"
+        android:text="총 점수 "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textTotalScoreResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="480dp"
+        android:text="총 점수에 해당하는 결과 "
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/textTotalScoreResult2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="515dp"
+        android:text="총 점수에 해당하는 결과2 "
+        android:textSize="23dp" />
+
+
+</FrameLayout>

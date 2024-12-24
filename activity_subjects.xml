@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:paddingStart="10dp"
+        android:hint="이름"
+        android:inputType="text"
+        android:background="@drawable/text_box"/>
+
+    <EditText
+        android:id="@+id/birthdate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="230dp"
+        android:paddingStart="10dp"
+        android:hint="생년월일"
+        android:inputType="phone"
+        android:background="@drawable/text_box"/>
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/text_box"
+        android:hint="키 (소수점 반올림)"
+        android:inputType="phone"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/text_box"
+        android:hint="체중 (소수점 반올림)"
+        android:inputType="phone"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="530dp"
+        android:background="@drawable/text_box"
+        android:hint="식별번호(최대 10자리 숫자)"
+        android:inputType="phone"
+        android:paddingStart="10dp" />
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="630dp"
+        android:backgroundTint="#009688"
+        android:text="완료"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:text="대상자 정보 입력"
+        android:textSize="40dp"
+        android:textColor="#009688"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_marginStart="75dp"
+        android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="남성"
+                android:textSize="25dp"/>
+
+            <RadioButton
+                android:id="@+id/manButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:button="@null"
+                android:text=""
+                android:background="@drawable/custom_radio_button"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="여성"
+                android:textSize="25dp"
+                android:layout_marginStart="30dp"/>
+
+            <RadioButton
+                android:id="@+id/womanButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:background="@drawable/custom_radio_button"
+                android:text=""
+                android:textSize="20dp"
+                android:layout_marginStart="10dp" />
+
+    </RadioGroup>
+
+</FrameLayout>

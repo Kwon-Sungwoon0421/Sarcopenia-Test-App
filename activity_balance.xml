@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+
+    <TextView
+        android:id="@+id/BalanceTime1"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/text_box"
+        android:inputType="text"
+        android:hint="00.00"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:textSize="45dp"/>
+
+    <TextView
+        android:id="@+id/BalanceTime2"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/text_box"
+        android:hint="00.00"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/BalanceTime3"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/text_box"
+        android:hint="00.00"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:textSize="45dp" />
+
+    <Button
+        android:id="@+id/FinishButton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#009688"
+        android:text="완료하기"
+        android:textSize="25dp"/>
+
+    <ImageButton
+        android:id="@+id/BackButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="330dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/backbutton" />
+
+    <TextView
+        android:id="@+id/backtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="327dp"
+        android:text="뒤로 가기"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="균형 평가"
+        android:textColor="#009688"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="130dp"
+        android:text="1. 발을 붙이고 선 시간을 입력하세요."
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="50dp"
+        android:text="2. 발을 반쯤 옆으로 붙이고 선 시간을 입력하세요."
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="50dp"
+        android:text="3. 발을 일자로 놓고 선 시간을 입력하세요."
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/StartTimer1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="190dp"
+        android:text="타이머"
+        android:backgroundTint="#009688"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/StartTimer2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="350dp"
+        android:text="타이머"
+        android:backgroundTint="#009688"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/StartTimer3Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="530dp"
+        android:text="타이머"
+        android:backgroundTint="#009688"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="50dp"
+        app:srcCompat="@drawable/balance1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="50dp"
+        app:srcCompat="@drawable/balance2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="60dp"
+        app:srcCompat="@drawable/balance3" />
+
+</FrameLayout>

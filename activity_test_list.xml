@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:text="대상자님"
+        android:textSize="40dp"
+        android:textColor="#009688"/>
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="50dp"
+        android:text="(식별번호 : 3333333333)"
+        android:textSize="20dp"
+        android:textColor="#009688"/>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/testlistimage1" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="320dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/testlistimage2" />
+
+    <ImageButton
+        android:id="@+id/BackButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="330dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/backbutton" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_marginStart="327dp"
+        android:text="뒤로 가기"
+        android:textSize="15dp"/>
+
+</FrameLayout>

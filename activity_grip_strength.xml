@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <Button
+        android:id="@+id/FinishButton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#009688"
+        android:text="완료 하기"
+        android:textSize="25dp"/>
+
+    <ImageButton
+        android:id="@+id/BackButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="330dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/backbutton" />
+
+    <TextView
+        android:id="@+id/backtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="327dp"
+        android:text="뒤로 가기"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="근육량 평가"
+        android:textColor="#009688"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:text="악력기로 3회 측정하여 가장 높았던"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="180dp"
+        android:text="값을 입력하세요."
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="50dp"
+        android:text="왼쪽"
+        android:textSize="25dp"
+        android:textColor="#009688"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginStart="50dp"
+        android:text="오른쪽"
+        android:textSize="25dp"
+        android:textColor="#009688"/>
+
+    <NumberPicker
+        android:id="@+id/LeftNumberPicker1"
+        android:selectionDividerHeight="0dp"
+        android:theme="@style/NumberPickerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginStart="100dp"
+        android:background="@drawable/text_box"/>
+
+    <NumberPicker
+        android:id="@+id/LeftNumberPicker2"
+        android:selectionDividerHeight="0dp"
+        android:theme="@style/NumberPickerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/text_box" />
+
+    <NumberPicker
+        android:id="@+id/LeftNumberPicker3"
+        android:selectionDividerHeight="0dp"
+        android:theme="@style/NumberPickerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/text_box" />
+
+    <NumberPicker
+        android:id="@+id/RightNumberPicker1"
+        android:selectionDividerHeight="0dp"
+        android:theme="@style/NumberPickerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginStart="100dp"
+        android:background="@drawable/text_box"/>
+
+    <NumberPicker
+        android:id="@+id/RightNumberPicker2"
+        android:selectionDividerHeight="0dp"
+        android:theme="@style/NumberPickerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/text_box" />
+
+    <NumberPicker
+        android:id="@+id/RightNumberPicker3"
+        android:selectionDividerHeight="0dp"
+        android:theme="@style/NumberPickerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/text_box" />
+
+</FrameLayout>

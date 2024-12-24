@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:paddingStart="10dp"
+        android:hint="아이디"
+        android:inputType="text"
+        android:background="@drawable/text_box"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="230dp"
+        android:paddingStart="10dp"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:background="@drawable/text_box"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="330dp"
+        android:backgroundTint="#009688"
+        android:text="Log in"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:text="로그인"
+        android:textSize="40dp"
+        android:textColor="#009688"/>
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원가입하기"
+        android:textSize="20dp"
+        android:textColor="#009688"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="420dp"/>
+
+    <TextView
+        android:id="@+id/id_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디 찾기"
+        android:textSize="20dp"
+        android:textColor="#009688"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="460dp"/>
+
+    <TextView
+        android:id="@+id/pw_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="500dp"
+        android:text="비밀번호 찾기"
+        android:textColor="#009688"
+        android:textSize="20dp" />
+
+</FrameLayout>
