@@ -119,6 +119,9 @@
 ## 데이터베이스 테이블 구조
   
 ### SPPB_user 테이블
+
+- 검사자의 정보
+  
 | 필드명        | 데이터 타입   | 설명            |
 |---------------|---------------|------------------|
 | username      | VARCHAR(50)   | 검사자 이름      |
@@ -127,7 +130,9 @@
 | id            | VARCHAR(50)   | 아이디           |
 | pw            | VARCHAR(255)  | 비밀번호         |
 
-- 검사자의 정보
+
+
+- 대상자의 정보
   
 ### SPPB_subjects 테이블
 | 필드명               | 데이터 타입   | 설명               |
@@ -146,8 +151,10 @@
 | Total_Score          | INT(11)       | 총 점수            |
 | Last_Inspection_Date | DATE          | 마지막 검사 날짜   |
 
-- 대상자의 정보
-  
+
+
+- MPU6050 센서의 데이터 정보
+
 ### SPPB_Normal 테이블
 | 필드명        | 데이터 타입   | 설명              |
 |---------------|---------------|--------------------|
@@ -161,8 +168,6 @@
 | A_Y           | FLOAT         | 가속도 Y값         |
 | A_Z           | FLOAT         | 가속도 Z값         |
 
-- MPU6050 센서의 데이터 정보
-
 ## 사진
 
 ### 설문 조사
@@ -175,12 +180,15 @@
 ![그림6](https://github.com/user-attachments/assets/d3b00018-0c6a-4d13-8e8c-a0a98fab6427)  ![그림7](https://github.com/user-attachments/assets/2f0d8a07-83db-46ec-baf6-ce495fa6adee)  ![그림8](https://github.com/user-attachments/assets/39f4c124-155c-45d8-aed7-775506ddc428)
 
 ### 테이블
-![SPPB_subjects](https://github.com/user-attachments/assets/5dc5afc6-2933-4729-bd72-82805bfdb799)
 - 대상자 테이블
+![SPPB_subjects](https://github.com/user-attachments/assets/5dc5afc6-2933-4729-bd72-82805bfdb799)
 
-![SPPB_user](https://github.com/user-attachments/assets/71544cb7-3c86-4b8b-a08c-f0ce4ff974ec)
+
 - 검사자 테이블
+![SPPB_user](https://github.com/user-attachments/assets/71544cb7-3c86-4b8b-a08c-f0ce4ff974ec)
 
-![SPPB_sensor](https://github.com/user-attachments/assets/08f38515-0676-408f-b0c3-a077c70c8e7f)
+
 - 센서 데이터 테이블
+![SPPB_sensor](https://github.com/user-attachments/assets/08f38515-0676-408f-b0c3-a077c70c8e7f)
+
 
