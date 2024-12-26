@@ -34,7 +34,15 @@
 5. **데이터베이스**
    - 검사자, 대상자 정보와 센서 데이터 저장
 
+### 구조
  ![SPPB 관계도](https://github.com/user-attachments/assets/b037a019-3152-44c2-a19e-22c859ec8ff7)
+ 
+### DFD
+ ![SPPB_DFD](https://github.com/user-attachments/assets/bcf3305a-e28e-4de0-856b-4af14b486e21)
+
+ ### FlowChart
+![SPPB_F_C](https://github.com/user-attachments/assets/544630ab-d5c4-4384-84c7-b79e35c76803)
+
 
 ## 코드 파일
 1. **php**
