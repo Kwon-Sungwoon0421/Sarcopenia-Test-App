@@ -162,3 +162,25 @@
 | A_Z           | FLOAT         | 가속도 Z값         |
 
 - MPU6050 센서의 데이터 정보
+
+## 사진
+
+### 설문 조사
+![그림1](https://github.com/user-attachments/assets/390615c9-0bc4-4668-bf7f-a236cfa827f8)  ![그림2](https://github.com/user-attachments/assets/4b0d58a9-253a-4036-a977-a42dc9490468)  ![그림3](https://github.com/user-attachments/assets/297cacd3-2b71-44a2-8d5b-e3e02dd6b21a)
+
+### 근감소증 평가
+![그림4](https://github.com/user-attachments/assets/4c64d0c6-8db3-4612-9865-0cfeec865a62)  ![그림5](https://github.com/user-attachments/assets/f1fe5315-1438-4cc2-81c6-79e5754f76f2)
+
+### 대상자 정보
+![그림6](https://github.com/user-attachments/assets/d3b00018-0c6a-4d13-8e8c-a0a98fab6427)  ![그림7](https://github.com/user-attachments/assets/2f0d8a07-83db-46ec-baf6-ce495fa6adee)  ![그림8](https://github.com/user-attachments/assets/39f4c124-155c-45d8-aed7-775506ddc428)
+
+### 테이블
+![SPPB_subjects](https://github.com/user-attachments/assets/5dc5afc6-2933-4729-bd72-82805bfdb799)
+- 대상자 테이블
+
+![SPPB_user](https://github.com/user-attachments/assets/71544cb7-3c86-4b8b-a08c-f0ce4ff974ec)
+- 검사자 테이블
+
+![SPPB_sensor](https://github.com/user-attachments/assets/08f38515-0676-408f-b0c3-a077c70c8e7f)
+- 센서 데이터 테이블
+
