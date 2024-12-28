@@ -49,7 +49,6 @@
 
 ## 코드 파일
 1. **php**
-   - config.php // 데이터베이스 정보
    - SPPB_login.php // 어플리케이션 로그인
    - SPPB_register // 어플리케이션 회원가입
    - SPPB_find_id.php // 어플리케이션 아이디 찾기
