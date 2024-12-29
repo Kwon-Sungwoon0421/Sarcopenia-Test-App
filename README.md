@@ -1,6 +1,7 @@
 # Sarcopenia_Test_App
 개발기간: 2024-11-11~2024-12-18  
-개발인원: 1명
+개발인원: 1명  
+
 ## 프로젝트 배경
 - 전 세계적으로 65세 이상의 노인 인구가 전체 인구의 20% 이상을 차지하는 초고령화 사회로 진행 중
 - 노인들은 신체기능을 평가하기 위해서 병원을 방문해야 하는 번거로움이 존재
@@ -48,13 +49,13 @@
 
 ## 코드 파일
 1. **php**
-   - SPPB_login.php // 어플리케이션 로그인
+   - SPPB_login // 어플리케이션 로그인
    - SPPB_register // 어플리케이션 회원가입
-   - SPPB_find_id.php // 어플리케이션 아이디 찾기
-   - SPPB_update.php // 비밀번호 변경
-   - SPPB_subjects.php // 대상자의 정보 저장
-   - SPPB_insert.php // 센서의 x, y, z값 저장
-   - SPPB_get_data.php // 센서의 x, y, z값 불러오기
+   - SPPB_find_id // 어플리케이션 아이디 찾기
+   - SPPB_update // 비밀번호 변경
+   - SPPB_subjects // 대상자의 정보 저장
+   - SPPB_insert // 센서의 x, y, z값 저장
+   - SPPB_get_data // 센서의 x, y, z값 불러오기
 
 2. **안드로이스 스튜디오**
 - Activity와 XML은 같은 제목끼리 연결
