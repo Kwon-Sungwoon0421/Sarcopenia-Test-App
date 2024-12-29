@@ -57,7 +57,7 @@
    - SPPB_insert // 센서의 x, y, z값 저장
    - SPPB_get_data // 센서의 x, y, z값 불러오기
 
-2. **안드로이스 스튜디오**
+2. **Android Studio**
 - Activity와 XML은 같은 제목끼리 연결
 
    (1) **java**
