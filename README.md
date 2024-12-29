@@ -10,7 +10,6 @@
 - **프론트엔드**: Android Studio (Java, XML)
 - **백엔드**: PHP, MySQL
 - **하드웨어**: Arduino, ESP8266, MPU6050(6축 IMU센서)
-- **서버**: MySQL
 - **통신**: Wi-Fi 모듈 (ESP8266)
 
 ## 주요 기능
